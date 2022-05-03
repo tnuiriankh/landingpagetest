@@ -1,6 +1,6 @@
-body {
-    display: flex;
-    flex-direction: column;
+button {
+    outline: 3px ridge #3882f6;
+    border-radius: 2rem;
 }
 
 a {
@@ -10,28 +10,38 @@ a {
 
 }
 
-.first {
-    background-color: #3882F6;
-    color: #E5E7EB;
-}
-
-.section1 {
+.topsection {
     display: flex;
-    justify-content: space-between;
     background-color: #1F2937;
-
+    padding-bottom: 28px;
 }
 
 .header {
     font-size: 24px;
     color: #F9FaF8;
-    display: flex;
-    margin: 16px;
+    font-weight: 900;
+    margin: auto;
     padding: 16px;
 }
 
 .menu {
     display: flex;
     justify-content: flex-end;
+    gap: 22px;
+    margin: auto;
+    margin-bottom: 16px;
  
+}
+
+.textbox1 {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 300px;
+    height: 150px;
+    padding-top: 28px;
+
 }
