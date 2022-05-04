@@ -90,14 +90,10 @@ a {
     align-items: center;
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937
+    color: #1F2937;
+    
 }
 
-.wrapper2 {
-    display: flex;
-    justify-content: center;
-    gap: 55px;
-}
 
 .block {
     border-radius: 25px;
@@ -107,11 +103,30 @@ a {
     
 }
 
-.wrapper3 {
+.blocktext {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: 55px;
 }
+
+.griddy {
+    display: grid;
+    height: 20vh;
+    width: 70vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 50px 10px;
+    margin: 35px;
+    justify-content: center;
+    align-content: center;
+}
+
+.bigwrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+
+}
+
 
