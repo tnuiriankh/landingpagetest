@@ -65,6 +65,7 @@ a {
     padding: 16px;
     padding-top: 28px;
     width: 400px;
+    margin-bottom: 55px;
 
 }
 
@@ -82,6 +83,7 @@ a {
     display: flex;
     padding: 100px;
     margin: 28px;
+    margin-bottom: 55px;
     
 }
 
@@ -191,4 +193,20 @@ a {
     padding-left: 18px;
     padding-right: 18px;
     margin-left: 90px;
+}
+
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.bottom {
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+    color: #F9FaF8;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px 40px 0px;
 }
