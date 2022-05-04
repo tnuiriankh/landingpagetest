@@ -24,6 +24,7 @@ a {
 .first {
     background-color: #3882F6;
     color: #F9FaF8;
+    font-weight: bolder;
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 18px;
@@ -153,4 +154,41 @@ a {
     justify-content: flex-end;
     font-weight: 900;
 
+}
+
+.cally {
+    display: flex;
+    background-color: #3882f6;
+    padding: 18px;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapt {
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+}
+
+.topcall {
+    font-weight: bold;
+    color: #f9FaF8;
+    font-size: 24px;
+
+}
+
+.blurb {
+    color: #F9FaF8;
+}
+
+.second {
+    background-color: #3882F6;
+    color: #F9FaF8;
+    font-weight: bolder;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left: 90px;
 }
