@@ -84,3 +84,34 @@ a {
     
 }
 
+.textheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+.block {
+    border-radius: 25px;
+    border: 5px solid #3882f6;
+    width: 200px;
+    height: 150px;
+    
+}
+
+.wrapper3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+
